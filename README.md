@@ -4,7 +4,7 @@ By adding media brakes I was able to reorganize elements to fit the page accordi
 My theme for the static comp is an app that will allow users to post they playlists and listen to other peoples playlist.
 
 Static Comp Provided:
-![static-comp](static-comp-2.png)
+![static-comp](Static-comp-2.png)
 
 My Static Comp:
-![my](my-static-comp-2.png)
+![my](My-static-comp-2.png)
