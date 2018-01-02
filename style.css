@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #2B2B2B;
+}
+
+.links {
+  display: inline-block;
+  position: relative;
+  top: 138px;
+  left: 36px;
+}
+
+.link-icons {
+  height: 25px;
+}
+
+.links-text {
+  display: inline-block;
+  bottom: 7px;
+  color: #8E8E8E;
+}
+
+#shares-icon {
+  position: relative;
+  left: 10%;
+}
+
+#shares-text {
+  position: relative;
+  color: #FFFFFF;
+  left: 12%;
+}
+
+#list-icon {
+  position: relative;
+  left: 22%
+}
+
+#list-text {
+  position: relative;
+  left: 25%;
+}
+
+#personal-icon {
+  position: relative;
+  left: 32%;
+}
+
+#personal-text {
+  position: relative;
+  left: 35%;
+}
+
+.admin-and-logo {
+  float: right;
+  padding-right: 3%;
+  padding-top:1%;
+}
+
+.user {
+  height: 25px;
+}
+
+.admin-username-text {
+  color: #3E99D5;
+  display: inline-block;
+  position: relative;
+  bottom: 8px;
+  left: 2%;
+}
+
+.down-arrow {
+  height: 13px;
+  display: inline-block;
+  position: relative;
+  bottom: 7px;
+  left: 6%;
+}
+
+.family-guy-logo {
+  height: 100px;
+  display: block;
+  position: relative;
+  top: 15px;
+}
+
+.main-section {
+  background-color: #EFEFEF;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  font-size: 3em;
+}
+
+#h1 {
+  font-size: 1em;
+  margin: 0;
+  color: #4D4D4D;
+  position: relative;
+  top: 1%;
+  left: 6%;
+  width: 15vw;
+}
+
+.article-section {
+  height: 80%;
+  margin-left: 5%;
+  display: block;
+}
+
+.articles {
+  height: 38%;
+  width: 22%;
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin: 10px; 
+  min-width: 230px;
+  min-height: 360px;
+}
+
+.article-top {
+  background-color: #3E99D5;
+  height: 125px;
+}
+
+.views-section{
+  float: right;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.views{
+  color: #ffffff;
+  font-size: 31%;
+}
+
+.views-number {
+  color: #ffffff;
+  font-size: 70%;
+  position: relative;
+  left: 11%;
+}
+
+.section-top-img {
+  position: relative;
+  bottom: -3%;
+  height: 95%;
+  left: 23%;
+
+}
+
+.article-bottom {
+  height: 250px;
+}
+
+.next-img {
+  height: 45%;
+  float: left;
+  margin-left: 2%;
+  margin-right: -59px;
+}
+
+.recipeint-name {
+  color: #4D4D4D;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.date {
+  color: #B3B3B5;
+  font-size: 13px;
+}
+
+.url {
+  font-size: 14px;
+  color: #898989;
+  background-color: #EFEFEF;
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 46px;
+  width: 92%;
+}
+
+.playlist-section {
+  font-size: 13px;
+  color: #4D4D4D;
+  margin-left: 10px;
+}
+
+.name-of-playlist {
+  font-size: 16px;
+}
+
+.attachments {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+
+.attachments-number {
+  margin-left: 10px;
+  color: #3E99D5;
+}
+
+@media screen and (max-width: 1090px) {
+
+  .articles {
+    width: 30%;
+  }
+
+}
+
+@media screen and (max-width: 883px) {
+
+  .articles {
+    width: 45%;
+  }
+
+  .family-guy-logo {
+    top: -18px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    height: 220px;
+  }
+
+  .links {
+    top: 168px;
+    left: 100px;
+  }
+
+  .admin-and-logo {
+    position: absolute;
+    left: 325px;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  
+  .links {
+    left: 15px;
+  }
+
+  .admin-and-logo {
+    left: 240px;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  
+  header {
+    height: 335px;
+}
+
+#shares-icon {
+    position: relative;
+    left: 240%;
+}
+
+#shares-text {
+    position: relative;
+    left: 263%;
+}
+
+#list-icon {
+    position: absolute;
+    left: 240%;
+    top: 117%;
+}
+
+#list-text {
+    position: absolute;
+    left: 295%;
+    top: 90%;
+}
+
+#personal-icon {
+    position: absolute;
+    left: 239%;
+    top: 229%;
+}
+
+#personal-text {
+    position: absolute;
+    top: 190%;
+    left: 296%;
+}
+  
+  .articles {
+    width: 62%;
+    margin-left: 16%;
+  }
+
+  .links {
+    left: -15px;
+  }
+
+  .admin-and-logo {
+    left: 175px;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .admin-and-logo {
+    left: 100px;
+  }
+
+  #shares-icon {
+    left: 157%;
+  }
+
+  #shares-text {
+    left: 179%;
+  }
+
+  #list-icon {
+    left: 160%;
+  }
+
+  #list-text {
+    left: 210%;
+  }
+
+  #personal-icon {
+    left: 160%;
+  }
+
+#personal-text {
+  left: 212%;
+  }
+
+}
